@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function Counter() {
+    let [count, setcount] = useState(0)
+
+    function update(e, kuchb) {
+        e.preventDefault()
+        // if (kuchb === 'inc') {
+        //     if (count < 10 ) {
+        //         setcount(count + 1)
+
+        //     } 
+        // }
+        // else if(count>0){
+        //     setcount(count-1)
+        // }
+
+        (kuchb === "inc") ? (setcount(count+1)) :(setcount (count - 1))
+       
+    }
+    return (
+        <>
+            <a href="" onClick={(e) => update(e, 'inc')}>Increment</a>
+            <p>{count}</p>
+            <a href="" onClick={(e) => update(e, 'dec')}>Decrement</a>
+        </>
+    )
+
 }
 
-export default App;
+// function Counter(){
+
+//     let [count , setcount]=useState(0)
+//     function add(){
+//         if(count <10){
+//             setcount (count + 1)
+//         }
+
+//     }
+//     function minus(){
+//         if(count >0)
+//         setcount (count - 1)
+//     }
+
+//     return (
+//     <>
+//         <button onClick={add}>Increment</button>
+//         <p>{count}</p>
+//         <button onClick={minus}>Decrement</button>
+//     </>
+//     )
+// }
+export default Counter
