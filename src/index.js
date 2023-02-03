@@ -5,12 +5,13 @@ import ReactDOM from 'react-dom/client';
 // import Mouse from './Mouse/Mouse'
 // import FakeDisplay from './Axios/FakeDisplay'
 // import Home from './TodoList/Home'
-import Netflix from './Netflix/Netflix'
+// import Netflix from './Netflix/Netflix'
 // import Game from "./Game/Game"
 // import Home from './Search Movies/Home' 
 // import App from './Routing/App'
 // import Home from './Open Library/Home'
 // import Home from './ContextAPI/Home '
+import BookRouter from './Open Book/BookRouter'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,7 +21,8 @@ root.render(
     // <Mouse //>
   // < Home />
   // <FakeDisplay />
-  <Netflix />
+  // <Netflix />
+  <BookRouter />
     //  <Game />
     // <App />
   
