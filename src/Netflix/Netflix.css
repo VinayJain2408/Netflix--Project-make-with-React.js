@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Row{
+    margin: 0 0 2rem 0;
+}
+.flex_Row{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.flex_Image{
+    margin: 0 0.25rem;
+}
+
+.flex_Row::-webkit-scrollbar{
+    display: none;
+}
+
+.flex_Image img{
+    height: 150px;
+    width: 130px;
+    
+}
+.flex_Image .big {
+    width: 250px;
+    height: 250px ;
+}
+
+
+
+
+.Big_Banner{
+    background-color: rgba(0,0,0,0.75);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+}
+.Big_Banner .anchor a{
+    color: rgba(255,255,255,0.75);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: black;
+    margin-right: 5px;
+   
+    text-decoration: none;
+}
+.anchor{
+    margin-top: 1rem;
+}
+.Big_Banner p{
+    width: 45vw;
+    font-size: 1.25rem;
+}
+.Big_Banner h1{
+    font-size: 3rem;
+}
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.top_img{
+    height: 100px;
+    width: 200px;
+}
+.top_img img{
+    height: 100%;
+    width: 100%;
+}
+.top h2{
+  
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    /* border: 3px solid black; */
+    background-color: red;
+    color: rgba(255,255, 255, 0.8);
+}

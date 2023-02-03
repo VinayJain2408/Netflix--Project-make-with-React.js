@@ -20,6 +20,7 @@ function Home() {
       // setProduct(response.data)
 
       setMoviesArray(response.data.results)
+      setInputValue('')
     }
 
     fetchData()
@@ -38,11 +39,12 @@ function Home() {
         </form>
 
         <div className='Movies_flex'>
+          
           {
             moviesArray.map((movies ,index)=>{
               return(
                 <div key={index} className="Movies_box">
-                <img src={ null ? movies_defalt : movies_path + movies.poster_path
+                <img src={ (movies.poster_path === null) ? movies_defalt : movies_path + movies.poster_path
                   } />
                 <h3>{movies.title}</h3>
                 </div>
