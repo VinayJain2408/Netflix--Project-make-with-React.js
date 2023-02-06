@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client';
 // import Mouse from './Mouse/Mouse'
 // import FakeDisplay from './Axios/FakeDisplay'
 // import Home from './TodoList/Home'
-// import Netflix from './Netflix/Netflix'
+import Netflix from './Netflix/Netflix'
 // import Game from "./Game/Game"
 // import Home from './Search Movies/Home' 
 // import App from './Routing/App'
@@ -14,7 +14,7 @@ import ReactDOM from 'react-dom/client';
 // import BookRouter from './Open Book/BookRouter'
 // import Book from './Book/Book'
 // import App from './RouteRevise/RouteRevise';
-import RouteRevise from './RouteRevise/RouteRevise';
+// import RouteRevise from './RouteRevise/RouteRevise';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,11 +23,11 @@ root.render(
     // <Mouse //>
   // < Home />
   // <FakeDisplay />
-  // <Netflix />
+  <Netflix />
   // <BookRouter />
     //  <Game />
     // <App />
     // <Book />
-    <RouteRevise />
+    // <RouteRevise />
   
 );

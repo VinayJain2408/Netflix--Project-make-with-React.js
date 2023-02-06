@@ -24,15 +24,14 @@
 }
 
 .flex_Image img{
-    height: 150px;
-    width: 130px;
+    width: 100px;
+    height: 125px;
     
 }
 .big .flex_Image img{
-    width: 150px;
-    height: 200px ;
+    width: 125px;
+    height: 160px ;
 }
-
 
 
 
@@ -81,8 +80,8 @@
     width: 100%;
 }
 .top_img{
-    height: 100px;
-    width: 200px;
+    height: 80px;
+    width: 150px;
 }
 .top_img img{
     height: 100%;
@@ -92,7 +91,7 @@
   
     padding: 5px 10px;
     border-radius: 10px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     /* border: 3px solid black; */
     background-color: red;
     color: rgba(255,255, 255, 0.8);
