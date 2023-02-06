@@ -7,11 +7,13 @@
 
 .Row{
     margin: 0 0 2rem 0;
+    margin: 1rem;
 }
 .flex_Row{
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
+    
 }
 .flex_Image{
     margin: 0 0.25rem;
@@ -26,9 +28,9 @@
     width: 130px;
     
 }
-.flex_Image .big {
-    width: 250px;
-    height: 250px ;
+.big .flex_Image img{
+    width: 150px;
+    height: 200px ;
 }
 
 

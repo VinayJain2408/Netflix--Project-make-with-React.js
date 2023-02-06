@@ -11,8 +11,10 @@ import ReactDOM from 'react-dom/client';
 // import App from './Routing/App'
 // import Home from './Open Library/Home'
 // import Home from './ContextAPI/Home '
-import BookRouter from './Open Book/BookRouter'
-
+// import BookRouter from './Open Book/BookRouter'
+// import Book from './Book/Book'
+// import App from './RouteRevise/RouteRevise';
+import RouteRevise from './RouteRevise/RouteRevise';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,8 +24,10 @@ root.render(
   // < Home />
   // <FakeDisplay />
   // <Netflix />
-  <BookRouter />
+  // <BookRouter />
     //  <Game />
     // <App />
+    // <Book />
+    <RouteRevise />
   
 );

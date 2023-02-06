@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Header() {
+
+  const [black , setblack] = useState(false)
+
+  // function data(){
+  //   if()
+  // }
+
   return (
     <div className='top'>
         <div className='top_img'>
