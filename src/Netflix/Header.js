@@ -4,12 +4,19 @@ function Header() {
 
   const [black , setblack] = useState(false)
 
-  // function data(){
-  //   if()
-  // }
+  window.onscroll = ()=>{
+    if(window.scrollY > 100){
+      setblack (true)
+
+    }
+    else
+      setblack(false)
+  }
+
+
 
   return (
-    <div className='top'>
+    <div className={(black ? 'top dark' : 'top')}>
         <div className='top_img'>
         <img src='Netflix.png'></img>
         </div>

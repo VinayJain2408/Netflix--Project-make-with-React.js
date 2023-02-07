@@ -15,6 +15,7 @@ import Netflix from './Netflix/Netflix'
 // import Book from './Book/Book'
 // import App from './RouteRevise/RouteRevise';
 // import RouteRevise from './RouteRevise/RouteRevise';
+import Home from './Shopping Cart/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
