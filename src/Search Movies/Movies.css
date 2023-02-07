@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+}
+
+.Movies_flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.Movies_box{
+    /* height: 280px; */
+    width: 230px;
+    border: 2px solid ;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.Movies_box img{
+    height: 220px;
+    width: 210px;
+}
+.box{
+    text-align: center;
+    margin-top: 1rem;
+}
+.box input {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+.box button{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    background-color: rgb(15, 246, 246);
+    color: rgb(255, 0, 0);
+}
